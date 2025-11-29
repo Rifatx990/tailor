@@ -1,0 +1,3 @@
+class AppConfig:
+    SECRET_KEY = 'secret_key_here'
+    DEBUG = True

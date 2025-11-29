@@ -1,0 +1,8 @@
+from flask import Flask
+from config.database import get_db_connection
+
+app = Flask(__name__)
+app.config['SECRET_KEY'] = 'secret_key_here'
+app.config['DEBUG'] = True
+
+db = get_db_connection()
